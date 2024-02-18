@@ -1,0 +1,7 @@
+[package]
+name = "sway-hitthrough"
+edition = "2018"
+
+[dependencies]
+softbuffer = "0.3.0"
+winit = { version = "0.29.0", features = ["rwh_05"] }
